@@ -5,8 +5,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/calculateDiscount.test.js"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "author": "Skryensya",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "vitest": "^3.2.4"
+  }
 }
