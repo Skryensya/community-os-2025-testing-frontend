@@ -1,0 +1,12 @@
+{
+  "name": "community-os-2025-testing-frontend",
+  "version": "1.0.0",
+  "description": "workshop ComunityOS",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/calculateDiscount.test.js"
+  },
+  "author": "Skryensya",
+  "license": "ISC"
+}
